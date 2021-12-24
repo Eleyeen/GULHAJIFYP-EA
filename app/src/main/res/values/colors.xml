@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryBlackText">#000000</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <color name="colorPrimary21">#090909</color>
+    <color name="colorAccent21">#1E88E5</color>
+
+    <color name="colorPrimary">#FFE714</color>
+    <color name="colorPrimaryDark">#FBAC36</color>
+    <color name="colorAccent">#160440</color>
+
+    <color name="teal_200">#EAEDED</color>
+    <color name="darkblue">#004175</color>
+    <color name="yellow">#FFE500</color>
+    <!--  Dashboard Colors-->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+
+    <!--Card colors-->
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+
+    <!--Navigation View Background-->
+    <color name="lightWhite">#E2FBFF</color>
+
+    <!--nightMOde colors-->
+
+    <color name="colorPrimaryNight">#020202</color>
+    <color name="colorPrimaryDarkNight">#231B19</color>
+    <color name="colorAccentNight">#1A237E</color>
+    <color name="colorPrimary21Night">#FFFFFF</color>
+    <color name="colorAccent21Night">#1E88E5</color>
+    <color name="colorPrimaryBlackTextNight">#FFFFFF</color>
+    <color name="colorPrimaryWhiteNight">#FFFFFF</color>
+
+
+
+
+
+    <!--Common colors-->
+    <color name="bg_splash">#FFFFFF</color>
+    <color name="page_bg">#F7F5F6</color>
+    <color name="page_bg_dim">#FAFAFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="transparent_white">#AAFFFFFF</color>
+    <color name="green">#00BF9A</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF9800</color>
+    <color name="gray">#CFD8DC</color>
+    <color name="purple">#7A1EA1</color>
+    <color name="imgPlaceholder">#ffffff</color>
+    <color name="fullTransparent">#00000000</color>
+    <color name="hint_color">#C1C7DE</color>
+    <color name="dark_blue">#1A237E</color>
+    <color name="light_green">#69F0AE</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="default_background">#EEEEEE</color>
+    <color name="colorblue">#2962FF</color>
+    <color name="blue_color">#2962FF</color>
+
+
+
+
+    <color name="trans">#80000000</color>
+    <color name="tran">#50000000</color>
+    <color name="detailsToolbar">#55000000</color>
+
+    <color name="notification_card_bg">#EFEFEF</color>
+
+    <color name="title_color">#818181</color>
+    <color name="toolbar_boarder">#e5e6ea</color>
+
+
+</resources>

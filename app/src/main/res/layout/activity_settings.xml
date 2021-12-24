@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryWhite"
+    tools:context=".activities.SettingsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cvChangeTheme"
+        android:background="?attr/colorPrimaryWhite"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="?attr/colorPrimaryWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvChangeTheme"
+                android:padding="@dimen/margin_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimaryBlackText"
+                android:text="Change Theme"
+                android:textSize="18sp"
+
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

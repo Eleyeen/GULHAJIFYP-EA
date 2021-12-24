@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimaryWhite"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tvNoSemester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="No Semester Found"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btnTesting"
+                android:text="Add shop"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btnTesting1"
+                android:layout_below="@id/btnTesting"
+
+                android:text="Show All Shop "
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/addshop"
+                android:text="Add Shop"
+                android:layout_below="@id/btnTesting1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/showshop"
+                android:layout_below="@id/addshop"
+
+                android:text="Show All Device "
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSemester"
+                android:layout_below="@id/showshop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:nestedScrollingEnabled="false"
+                android:background="?attr/colorPrimaryWhite"
+                tools:targetApi="lollipop"
+                android:layout_marginLeft="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_4dp"
+                android:layout_below="@+id/rvSemester" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
