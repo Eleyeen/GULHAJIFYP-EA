@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521041663332",
+    "firebase_url": "https://gulhajifyp-default-rtdb.firebaseio.com",
+    "project_id": "gulhajifyp",
+    "storage_bucket": "gulhajifyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521041663332:android:cdad24b1b64ce354de1671",
+        "android_client_info": {
+          "package_name": "com.example.bsnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521041663332-gellq8gijoub6r74ujgmli1sl0dltjan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bsnotes",
+            "certificate_hash": "7254b5f655d766a47538a6acfbe70cff564046af"
+          }
+        },
+        {
+          "client_id": "521041663332-kfo94rihrpdttretf6c8sh48qm97e15t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCftrUYXdiHW0j_YpwFsHMLqbePdpgTIkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521041663332-kfo94rihrpdttretf6c8sh48qm97e15t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
